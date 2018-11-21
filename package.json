@@ -1,6 +1,6 @@
 {
   "name": "qvo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "qvo payment library for Node.js",
   "main": "index.js",
   "scripts": {
