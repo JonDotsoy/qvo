@@ -4,7 +4,7 @@
   "description": "qvo payment library for Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/**/*.spec.js"
   },
   "keywords": [
     "qvo"
@@ -14,5 +14,9 @@
   "dependencies": {
     "request": "~2.88.0",
     "request-promise": "~4.2.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
   }
 }
